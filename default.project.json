@@ -1,0 +1,46 @@
+{
+	"name": "Slapp",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedFirst": {
+			"$className": "ReplicatedFirst",
+			"$ignoreUnknownInstances": false,
+			"$path": "src/ReplicatedFirst",
+			"Packages": {
+				"$className": "Folder",
+				"$ignoreUnknownInstances": true,
+				"$path": "Packages"
+			}
+		},
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"$ignoreUnknownInstances": true,
+			"$path": "src/Shared",
+			"Packages": {
+				"$className": "Folder",
+				"$ignoreUnknownInstances": true,
+				"$path": "Packages"
+				
+			}
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"$ignoreUnknownInstances": true,
+			"$path": "src/Server"
+		},
+		"ServerStorage": {
+			"$className": "ServerStorage",
+			"$ignoreUnknownInstances": true
+			
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"$ignoreUnknownInstances": true,
+				"$path": "src/Client"
+			},
+			"$ignoreUnknownInstances": true
+		}
+	}
+}
